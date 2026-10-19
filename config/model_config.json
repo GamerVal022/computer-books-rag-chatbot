@@ -1,0 +1,16 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_role": "converts questions and book passages into 384-dimension vectors for semantic search",
+  "generative_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "generative_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "generative_role": "writes the answer from the retrieved passages only",
+  "chunk_words": 250,
+  "chunk_overlap_words": 40,
+  "top_k": 5,
+  "min_retrieval_score": 0.50,
+  "min_answer_support": 0.35,
+  "index": "FAISS IndexFlatIP, normalized embeddings (cosine similarity)",
+  "decoding": "greedy, max_new_tokens=250",
+  "hardware": "Dell Latitude 5400, 8 GB RAM, CPU only"
+}

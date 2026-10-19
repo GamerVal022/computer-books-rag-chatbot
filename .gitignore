@@ -1,0 +1,46 @@
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Original books and extracted book content
+data/books/
+data/**/*.pdf
+data/**/*.epub
+data/**/*.docx
+data/chunks.jsonl
+data/pages.jsonl
+
+# Temporary question drafts and backups
+data/*backup*
+data/*.before_repair.json
+data/*draft*.txt
+data/*fresh*.txt
+data/*review*.txt
+data/no_answer_questions.txt
+
+# Downloaded models and generated indexes
+models/
+model/
+artifacts/
+*.faiss
+*.index
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Local caches and logs
+.cache/
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

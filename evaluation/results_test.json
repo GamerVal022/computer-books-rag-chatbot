@@ -1,0 +1,574 @@
+[
+  {
+    "id": "Q002",
+    "question": "What is the primary purpose of the train-persist option in machine learning models?",
+    "answerable": true,
+    "answer": "The primary purpose of the train-persist option in machine learning models is to enable continuous learning, which involves updating the model based on new data without needing to perform a complete training cycle every time. This approach ensures that the model remains accurate over time and adapts to changing conditions.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_014",
+        "title": "Machine Learning Engineering with Python",
+        "page": 170,
+        "chunk_id": "G000_BOOK_014_P170_C01"
+      },
+      {
+        "book_id": "G000_BOOK_014",
+        "title": "Machine Learning Engineering with Python",
+        "page": 554,
+        "chunk_id": "G000_BOOK_014_P554_C02"
+      },
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 291,
+        "chunk_id": "G000_BOOK_006_P291_C01"
+      },
+      {
+        "book_id": "G000_BOOK_020",
+        "title": "Building LLMs for Production",
+        "page": 433,
+        "chunk_id": "G000_BOOK_020_P433_C02"
+      },
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 293,
+        "chunk_id": "G000_BOOK_006_P293_C01"
+      }
+    ],
+    "seconds": 30.8,
+    "recall_at_5_hit": true,
+    "reference_answer": "The primary purpose of the train-persist option in machine learning models is to enable efficient training and prediction processes by separating the model training phase from the model persistence phase.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q005",
+    "question": "What is the recommended size for an Eyeball dev set based on the given information?",
+    "answerable": true,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 7.8,
+    "recall_at_5_hit": true,
+    "reference_answer": "The recommended size for an Eyeball dev set depends on several factors including the accuracy of the classifier, the amount of data available, and the desired level of precision in identifying errors. A general guideline is to aim for a size where the classifier can identify at least 10-20% of the total number of examples in the dataset. This allows for a reasonable balance between model complexity and performance. However, the exact size may vary depending on the specific use case and the"
+  },
+  {
+    "id": "Q006",
+    "question": "What was the first application of machine learning techniques in remote sensing?",
+    "answerable": true,
+    "answer": "Chapter 1 discusses the first application of machine learning techniques in remote sensing.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_015",
+        "title": "Machine Learning Methods",
+        "page": 10,
+        "chunk_id": "G000_BOOK_015_P10_C01"
+      },
+      {
+        "book_id": "G000_BOOK_015",
+        "title": "Machine Learning Methods",
+        "page": 2,
+        "chunk_id": "G000_BOOK_015_P2_C01"
+      },
+      {
+        "book_id": "G000_BOOK_015",
+        "title": "Machine Learning Methods",
+        "page": 11,
+        "chunk_id": "G000_BOOK_015_P11_C01"
+      },
+      {
+        "book_id": "G000_BOOK_015",
+        "title": "Machine Learning Methods",
+        "page": 289,
+        "chunk_id": "G000_BOOK_015_P289_C01"
+      },
+      {
+        "book_id": "G000_BOOK_015",
+        "title": "Machine Learning Methods",
+        "page": 338,
+        "chunk_id": "G000_BOOK_015_P338_C03"
+      }
+    ],
+    "seconds": 11.4,
+    "recall_at_5_hit": false,
+    "reference_answer": "Yhann and Simpson's use of MLP NN classi\ufb01ers in the thermal infrared and visible channels in the AVHRR to detect clouds was their first application of machine learning techniques in remote sensing.",
+    "expected_page_cited": false,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q008",
+    "question": "What is the relationship between the training and testing MSEs in the context of air quality prediction?",
+    "answerable": true,
+    "answer": "The training and testing MSEs in the context of air quality prediction represent different aspects of the model's performance:\n\n- **Training MSE**: Represents the average squared difference between the actual historical data and the predicted values for the test set.\n- **Testing MSE**: Measures the average squared difference between actual and predicted values on the testing dataset.\n\nIn the context of air quality prediction, the relatively low values of the training and testing MSEs (e.g., 22.43 and 29.97, respectively) indicate that the model performs reasonably well during the training phase but may have difficulty predicting accurately on the test data due to its complexity and the nature of the problem (predicting air quality levels based on environmental factors).\n\nHowever, the testing MSE being significantly lower than the training MSE suggests that the model has learned enough from the training data to make accurate predictions on new, unseen data. This implies that the model has achieved good generalization capabilities, even though it still struggles with the specific task of predicting air quality levels under real-world conditions.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 47,
+        "chunk_id": "G000_BOOK_018_P47_C02"
+      },
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 208,
+        "chunk_id": "G000_BOOK_018_P208_C02"
+      },
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 47,
+        "chunk_id": "G000_BOOK_018_P47_C01"
+      },
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 48,
+        "chunk_id": "G000_BOOK_018_P48_C01"
+      },
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 89,
+        "chunk_id": "G000_BOOK_018_P89_C02"
+      }
+    ],
+    "seconds": 48.4,
+    "recall_at_5_hit": true,
+    "reference_answer": "The passage states that the relatively close values of the training and testing MSEs (22.43 and 29.97, respectively) indicate that the model exhibits reasonable performance in both fitting the training data and generalizing to new observations.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q009",
+    "question": "What is the recommended approach for ensuring data cleanliness and validity in a modern data ecosystem?",
+    "answerable": true,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 8.0,
+    "recall_at_5_hit": true,
+    "reference_answer": "Clean and validate data in the system best suited to do so."
+  },
+  {
+    "id": "Q011",
+    "question": "What is the main challenge faced by the attention layer when increasing the context length?",
+    "answerable": true,
+    "answer": "The main challenge faced by the attention layer when increasing the context length is that the computational resources required for training and inference increase substantially.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_020",
+        "title": "Building LLMs for Production",
+        "page": 80,
+        "chunk_id": "G000_BOOK_020_P80_C02"
+      },
+      {
+        "book_id": "G000_BOOK_020",
+        "title": "Building LLMs for Production",
+        "page": 81,
+        "chunk_id": "G000_BOOK_020_P81_C01"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 461,
+        "chunk_id": "G000_BOOK_012_P461_C01"
+      },
+      {
+        "book_id": "G000_BOOK_011",
+        "title": "Large Language Models",
+        "page": 64,
+        "chunk_id": "G000_BOOK_011_P64_C01"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 476,
+        "chunk_id": "G000_BOOK_012_P476_C01"
+      }
+    ],
+    "seconds": 14.1,
+    "recall_at_5_hit": true,
+    "reference_answer": "The passage discusses how the attention layer's computational complexity grows exponentially with the context length, leading to significant latency issues. It mentions that even small changes in context length can result in large latencies, especially for longer document contexts.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": true
+  },
+  {
+    "id": "Q014",
+    "question": "What are some of the key applications and modalities of generative AI?",
+    "answerable": true,
+    "answer": "Some of the key applications and modalities of generative AI include:\n\n1. **Artistic Creation**: Generating new images, texts, and audio.\n2. **Data Augmentation**: Transforming existing data into new, interesting formats.\n3. **Natural Language Processing**: Understanding and generating human-like responses in natural language.\n4. **Content Creation**: Generating articles, stories, etc.\n5. **Creative Applications**: Art, poetry, music, and other artistic works.\n6. **Business Applications**: Enhancing customer service, marketing strategies, and decision-making processes.\n7. **Medical Applications**: Predicting disease progression and developing personalized treatment plans.\n8. **Entertainment**: Creating interactive experiences, engaging audiences through immersive storytelling.\n9. **Educational Applications**: Personalized learning paths, adaptive content delivery systems.\n10. **Healthcare**: Developing diagnostic tools, predicting patient outcomes, and improving medical treatments.\n\nThese applications leverage generative AI's ability to learn from patterns and generate new data, making them versatile and adaptable to various domains.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_008",
+        "title": "Generative AI",
+        "page": 251,
+        "chunk_id": "G000_BOOK_008_P251_C01"
+      },
+      {
+        "book_id": "G000_BOOK_008",
+        "title": "Generative AI",
+        "page": 27,
+        "chunk_id": "G000_BOOK_008_P27_C01"
+      },
+      {
+        "book_id": "G000_BOOK_008",
+        "title": "Generative AI",
+        "page": 253,
+        "chunk_id": "G000_BOOK_008_P253_C02"
+      },
+      {
+        "book_id": "G000_BOOK_008",
+        "title": "Generative AI",
+        "page": 39,
+        "chunk_id": "G000_BOOK_008_P39_C01"
+      },
+      {
+        "book_id": "G000_BOOK_008",
+        "title": "Generative AI",
+        "page": 25,
+        "chunk_id": "G000_BOOK_008_P25_C01"
+      }
+    ],
+    "seconds": 53.0,
+    "recall_at_5_hit": false,
+    "reference_answer": "Generative AI can be applied to various fields including media, finance, healthcare, and even education. It can generate content based on patterns learned from large datasets, making it useful for tasks like image synthesis, natural language processing, and predictive analytics. Additionally, it can be used for personalized learning experiences, where students receive feedback tailored to their individual needs and learning styles.",
+    "expected_page_cited": false,
+    "correct_by_hand (true/false)": true
+  },
+  {
+    "id": "Q015",
+    "question": "What is the purpose of intermediate representations (IR) in compiler design?",
+    "answerable": true,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0,
+    "recall_at_5_hit": true,
+    "reference_answer": "Intermediate representations (IR) play a crucial role in compiler design by providing a structured way to represent high-level programming languages and their corresponding machine code. They help in understanding the structure of programs, facilitating optimizations during compilation, and enabling efficient execution on different hardware backends."
+  },
+  {
+    "id": "Q018",
+    "question": "What is the recommended approach for continuously adjusting ML models to adapt to changing environments?",
+    "answerable": true,
+    "answer": "periodically update them.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 310,
+        "chunk_id": "G000_BOOK_006_P310_C01"
+      },
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 57,
+        "chunk_id": "G000_BOOK_006_P57_C02"
+      },
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 290,
+        "chunk_id": "G000_BOOK_006_P290_C01"
+      }
+    ],
+    "seconds": 8.3,
+    "recall_at_5_hit": false,
+    "reference_answer": "Conducting model performance tests, including validation with offline data, feature importance analysis, and fairness, bias, and inclusion evaluations, to ensure the model's performance remains relevant and adaptable to dynamic environments.",
+    "expected_page_cited": false,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q023",
+    "question": "How does the concept of wavefunction normalization relate to the definition of Dirac bra-ket notation?",
+    "answerable": true,
+    "answer": "The concept of wavefunction normalization relates to the definition of Dirac bra-ket notation through the following steps:\n\n1. **Normalization Condition**: The key relationship is that the probability amplitude \\( \\Psi_1(x,t) \\cdot \\Psi_2(x,t) \\) must equal 1 for all positions \\( x \\). Mathematically, this means:\n   \\[\n   \\int_{\\Omega} |\\Psi_1(x,t)|^2 dx = 1\n   \\]\n   where \\( \\Omega \\) is the volume of the system.\n\n2. **Dirac Bra-Ket Notation**: Dirac bra-ket notation allows for the representation of wavefunctions in a more abstract form. It uses a pair of bras and kets, denoted as \\( \\langle \\psi | \\) and \\( \\psi \\rangle \\).\n\n3. **Inner Product Representation**: The inner product \\( \\langle \\psi | \\psi \\rangle \\) is used to calculate the probability amplitude \\( \\Psi_1(x,t) \\cdot \\Psi_2(x,t) \\):\n   \\[\n   \\Psi_1(x,t) \\cdot \\Psi_2(x,t) = \\int_{\\Omega} |\\Psi",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_004",
+        "title": "Data Science",
+        "page": 64,
+        "chunk_id": "G000_BOOK_004_P64_C01"
+      },
+      {
+        "book_id": "G000_BOOK_004",
+        "title": "Data Science",
+        "page": 66,
+        "chunk_id": "G000_BOOK_004_P66_C03"
+      },
+      {
+        "book_id": "G000_BOOK_004",
+        "title": "Data Science",
+        "page": 66,
+        "chunk_id": "G000_BOOK_004_P66_C02"
+      },
+      {
+        "book_id": "G000_BOOK_004",
+        "title": "Data Science",
+        "page": 67,
+        "chunk_id": "G000_BOOK_004_P67_C01"
+      },
+      {
+        "book_id": "G000_BOOK_004",
+        "title": "Data Science",
+        "page": 123,
+        "chunk_id": "G000_BOOK_004_P123_C02"
+      }
+    ],
+    "seconds": 62.9,
+    "recall_at_5_hit": true,
+    "reference_answer": "Wavefunction normalization ensures that the probability density of finding a particle in a given position is always 1, which aligns with the requirement of normalization in Dirac bra-ket notation.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q024",
+    "question": "What is the main challenge faced by the project involving multiple stakeholders in bringing an ML system into production?",
+    "answerable": true,
+    "answer": "Step 1. Project scoping",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 60,
+        "chunk_id": "G000_BOOK_006_P60_C01"
+      }
+    ],
+    "seconds": 6.3,
+    "recall_at_5_hit": false,
+    "reference_answer": "The passage discusses the challenges of designing, developing, and selecting an ML model that satisfies all stakeholders' requirements, including the need for balancing competing interests among various teams such as ML engineers, salespeople, product managers, infrastructure engineers, and a manager.",
+    "expected_page_cited": false,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q026",
+    "question": "What is the primary purpose of differencing in time series analysis?",
+    "answerable": true,
+    "answer": "Differencing is used to remove the trend component from a time series dataset.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_019",
+        "title": "The Art of Feature Engineering Essentials for Machine Learning",
+        "page": 136,
+        "chunk_id": "G000_BOOK_019_P136_C02"
+      },
+      {
+        "book_id": "G000_BOOK_019",
+        "title": "The Art of Feature Engineering Essentials for Machine Learning",
+        "page": 133,
+        "chunk_id": "G000_BOOK_019_P133_C01"
+      },
+      {
+        "book_id": "G000_BOOK_010",
+        "title": "Information-Driven Machine Learning",
+        "page": 173,
+        "chunk_id": "G000_BOOK_010_P173_C02"
+      },
+      {
+        "book_id": "G000_BOOK_019",
+        "title": "The Art of Feature Engineering Essentials for Machine Learning",
+        "page": 136,
+        "chunk_id": "G000_BOOK_019_P136_C01"
+      },
+      {
+        "book_id": "G000_BOOK_019",
+        "title": "The Art of Feature Engineering Essentials for Machine Learning",
+        "page": 190,
+        "chunk_id": "G000_BOOK_019_P190_C01"
+      }
+    ],
+    "seconds": 13.5,
+    "recall_at_5_hit": true,
+    "reference_answer": "The primary purpose of differencing in time series analysis is to remove trends and seasonal patterns from the data, making it stationary and suitable for modeling.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": true
+  },
+  {
+    "id": "Q028",
+    "question": "When was Hakainde Hichilema made president of Zambia?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q029",
+    "question": "When is the next USA presidential election?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q031",
+    "question": "Who was the first captain to sail the Dead Sea?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q032",
+    "question": "When was the Sahara declared a desert?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q034",
+    "question": "What is the cleanest form of energy?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q037",
+    "question": "Will AI take over humanity?",
+    "answerable": false,
+    "answer": "Yes, AI is likely to take over humanity in the near future.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 34,
+        "chunk_id": "G000_BOOK_012_P34_C01"
+      },
+      {
+        "book_id": "G000_BOOK_011",
+        "title": "Large Language Models",
+        "page": 195,
+        "chunk_id": "G000_BOOK_011_P195_C01"
+      },
+      {
+        "book_id": "G000_BOOK_017",
+        "title": "MLOps with Ray Best Practices",
+        "page": 321,
+        "chunk_id": "G000_BOOK_017_P321_C02"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 23,
+        "chunk_id": "G000_BOOK_012_P23_C01"
+      },
+      {
+        "book_id": "G000_BOOK_013",
+        "title": "Machine Learning Animated",
+        "page": 65,
+        "chunk_id": "G000_BOOK_013_P65_C02"
+      }
+    ],
+    "seconds": 11.3
+  },
+  {
+    "id": "Q038",
+    "question": "Who is the world's best doctor?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q040",
+    "question": "What is the processing chip in a Google Pixel 6 Pro?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q041",
+    "question": "Can Sifu work on a Google Pixel 6 Pro?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q043",
+    "question": "Who would win between samurais and spartans?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q044",
+    "question": "What is Nvidia's most powerful GPU?",
+    "answerable": false,
+    "answer": "The most powerful GPU that Nvidia uses is the NVIDIA A100, with either 40GB or 80GB of GPU memory (GRAM), and 400 Gbps network bandwidth.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_017",
+        "title": "MLOps with Ray Best Practices",
+        "page": 252,
+        "chunk_id": "G000_BOOK_017_P252_C02"
+      },
+      {
+        "book_id": "G000_BOOK_005",
+        "title": "Deep Learning With Python  Advanced and Ef",
+        "page": 50,
+        "chunk_id": "G000_BOOK_005_P50_C01"
+      },
+      {
+        "book_id": "G000_BOOK_005",
+        "title": "Deep Learning With Python  Advanced and Ef",
+        "page": 50,
+        "chunk_id": "G000_BOOK_005_P50_C02"
+      },
+      {
+        "book_id": "G000_BOOK_017",
+        "title": "MLOps with Ray Best Practices",
+        "page": 252,
+        "chunk_id": "G000_BOOK_017_P252_C01"
+      },
+      {
+        "book_id": "G000_BOOK_010",
+        "title": "Information-Driven Machine Learning",
+        "page": 228,
+        "chunk_id": "G000_BOOK_010_P228_C01"
+      }
+    ],
+    "seconds": 18.0
+  },
+  {
+    "id": "Q046",
+    "question": "Which university has the best machine learning program?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q047",
+    "question": "What did OpenAI announce at the beginning of October?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  }
+]

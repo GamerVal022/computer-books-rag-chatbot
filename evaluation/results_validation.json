@@ -1,0 +1,338 @@
+[
+  {
+    "id": "Q001",
+    "question": "What are some potential applications of language models beyond just autocompletion?",
+    "answerable": true,
+    "answer": "Some potential applications of language models beyond just autocompletion include:\n\n1. Sentiment analysis - analyzing the sentiment behind written content.\n2. Question answering - identifying answers to specific questions within large texts.\n3. Named entity recognition - identifying entities mentioned in text.\n4. Machine translation - translating between languages.\n5. Text summarization - generating concise summaries of long documents.\n6. Personalized recommendations - suggesting items based on user preferences.\n7. Fraud detection - identifying fraudulent activities in text data.\n8. Content moderation - filtering inappropriate or offensive content.\n9. Medical diagnosis - interpreting medical records.\n10. Legal research - understanding legal terminology and cases.\n11. Customer service - providing personalized responses to customer inquiries.\n12. Educational content creation - creating educational materials.\n13. Social media monitoring - detecting trends and sentiments in social media posts.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 364,
+        "chunk_id": "G000_BOOK_012_P364_C03"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 358,
+        "chunk_id": "G000_BOOK_012_P358_C01"
+      },
+      {
+        "book_id": "G000_BOOK_011",
+        "title": "Large Language Models",
+        "page": 202,
+        "chunk_id": "G000_BOOK_011_P202_C02"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 622,
+        "chunk_id": "G000_BOOK_012_P622_C02"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 360,
+        "chunk_id": "G000_BOOK_012_P360_C01"
+      }
+    ],
+    "seconds": 67.0,
+    "recall_at_5_hit": false,
+    "reference_answer": "The passage discusses various uses of language models, including speech recognition, but does not explicitly state any other applications beyond autocompletion. Therefore, an appropriate question could be:\n\nQUESTION: What are some additional ways language models can be applied beyond autocompletion?\nANSWER: While the passage mentions autocompletion as one application, it does not provide information about other potential uses of language models. Thus, another relevant question might be:\n\nQUESTION: What are some alternative applications of language models besides autocompletion?",
+    "expected_page_cited": false,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q004",
+    "question": "What is the relationship between Logistic Regression and probabilistic models?",
+    "answerable": true,
+    "answer": "Logistic Regression is essentially a classification algorithm, while many would-be misled towards thinking that it is a regression algorithm.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 75,
+        "chunk_id": "G000_BOOK_018_P75_C02"
+      },
+      {
+        "book_id": "G000_BOOK_005",
+        "title": "Deep Learning With Python  Advanced and Ef",
+        "page": 14,
+        "chunk_id": "G000_BOOK_005_P14_C01"
+      },
+      {
+        "book_id": "G000_BOOK_007",
+        "title": "Distributed Machine Learning with PySpark",
+        "page": 339,
+        "chunk_id": "G000_BOOK_007_P339_C01"
+      },
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 76,
+        "chunk_id": "G000_BOOK_018_P76_C01"
+      },
+      {
+        "book_id": "G000_BOOK_005",
+        "title": "Deep Learning With Python  Advanced and Ef",
+        "page": 15,
+        "chunk_id": "G000_BOOK_005_P15_C01"
+      }
+    ],
+    "seconds": 11.2,
+    "recall_at_5_hit": true,
+    "reference_answer": "Logistic Regression is closely related to probabilistic models because both are used to predict outcomes based on input features.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": false
+  },
+  {
+    "id": "Q010",
+    "question": "How does Jupyter Notebooks simplify the process of setting up a deep learning workstation?",
+    "answerable": true,
+    "answer": "Jupyter Notebooks simplifies the process of setting up a deep learning workstation by allowing users to execute each small component independently, rather than executing the entire code from the beginning to the end. This means that if problems arise later in the code, users can simply execute the smaller components to identify where the issue lies, rather than having to recompile the entire code. Additionally, Jupyter Notebooks provides a convenient way to switch between different versions of the notebook, making it easier to maintain and update the workspace.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_005",
+        "title": "Deep Learning With Python  Advanced and Ef",
+        "page": 51,
+        "chunk_id": "G000_BOOK_005_P51_C02"
+      },
+      {
+        "book_id": "G000_BOOK_017",
+        "title": "MLOps with Ray Best Practices",
+        "page": 135,
+        "chunk_id": "G000_BOOK_017_P135_C01"
+      },
+      {
+        "book_id": "G000_BOOK_013",
+        "title": "Machine Learning Animated",
+        "page": 32,
+        "chunk_id": "G000_BOOK_013_P32_C01"
+      },
+      {
+        "book_id": "G000_BOOK_006",
+        "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+        "page": 343,
+        "chunk_id": "G000_BOOK_006_P343_C01"
+      },
+      {
+        "book_id": "G000_BOOK_013",
+        "title": "Machine Learning Animated",
+        "page": 39,
+        "chunk_id": "G000_BOOK_013_P39_C02"
+      }
+    ],
+    "seconds": 26.8,
+    "recall_at_5_hit": true,
+    "reference_answer": "It allows users to execute individual components of their code when encountering issues rather than running the entire code from the start.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": true
+  },
+  {
+    "id": "Q013",
+    "question": "What is the purpose of using both the development and testing sets in machine learning?",
+    "answerable": true,
+    "answer": "The purpose of using both the development and testing sets in machine learning is to guide the team towards making the most significant changes to improve the machine learning system's performance.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_016",
+        "title": "machine learning yearning",
+        "page": 71,
+        "chunk_id": "G000_BOOK_016_P71_C02"
+      },
+      {
+        "book_id": "G000_BOOK_016",
+        "title": "machine learning yearning",
+        "page": 15,
+        "chunk_id": "G000_BOOK_016_P15_C01"
+      },
+      {
+        "book_id": "G000_BOOK_016",
+        "title": "machine learning yearning",
+        "page": 78,
+        "chunk_id": "G000_BOOK_016_P78_C01"
+      },
+      {
+        "book_id": "G000_BOOK_017",
+        "title": "MLOps with Ray Best Practices",
+        "page": 31,
+        "chunk_id": "G000_BOOK_017_P31_C01"
+      },
+      {
+        "book_id": "G000_BOOK_010",
+        "title": "Information-Driven Machine Learning",
+        "page": 198,
+        "chunk_id": "G000_BOOK_010_P198_C02"
+      }
+    ],
+    "seconds": 14.8,
+    "recall_at_5_hit": true,
+    "reference_answer": "To guide the team towards making the most significant improvements to the machine learning model based on future data characteristics.",
+    "expected_page_cited": true,
+    "correct_by_hand (true/false)": true
+  },
+  {
+    "id": "Q016",
+    "question": "What does the RMSE measure in regression analysis?",
+    "answerable": true,
+    "answer": "The RMSE (Root Mean Square Error) measures the average magnitude of the differences between predicted values and actual values. In other words, it quantifies the consistency or reliability of the model's predictions.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_007",
+        "title": "Distributed Machine Learning with PySpark",
+        "page": 308,
+        "chunk_id": "G000_BOOK_007_P308_C02"
+      },
+      {
+        "book_id": "G000_BOOK_007",
+        "title": "Distributed Machine Learning with PySpark",
+        "page": 204,
+        "chunk_id": "G000_BOOK_007_P204_C01"
+      },
+      {
+        "book_id": "G000_BOOK_009",
+        "title": "Grokking Machine Learning",
+        "page": 120,
+        "chunk_id": "G000_BOOK_009_P120_C02"
+      },
+      {
+        "book_id": "G000_BOOK_018",
+        "title": "Practical Guide to Machine Learning NLP",
+        "page": 208,
+        "chunk_id": "G000_BOOK_018_P208_C02"
+      },
+      {
+        "book_id": "G000_BOOK_007",
+        "title": "Distributed Machine Learning with PySpark",
+        "page": 158,
+        "chunk_id": "G000_BOOK_007_P158_C01"
+      }
+    ],
+    "seconds": 14.4,
+    "recall_at_5_hit": false,
+    "reference_answer": "The Root Mean Squared Error measures the average difference between predicted and actual values, providing insight into the model's prediction accuracy and overall performance.",
+    "expected_page_cited": false,
+    "correct_by_hand (true/false)": true
+  },
+  {
+    "id": "Q019",
+    "question": "What is the primary mathematical requirement for splitting a dataset into a training set and a validation set?",
+    "answerable": true,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 7.2,
+    "recall_at_5_hit": true,
+    "reference_answer": "The i.i.d. (independent and identically distributed) assumption ensures that each sample in the training set is independent of every sample in the validation set, making it easier to evaluate the performance of a predictive model without memorizing training data."
+  },
+  {
+    "id": "Q022",
+    "question": "What does the `seed` parameter in the `ALS` constructor do?",
+    "answerable": true,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0,
+    "recall_at_5_hit": true,
+    "reference_answer": "The `seed` parameter in the `ALS` constructor ensures that the split between the training and testing sets is reproducible each time the code is run with the same seed value."
+  },
+  {
+    "id": "Q027",
+    "question": "Who is the current president of France?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q030",
+    "question": "Does Mexico have mountains?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q033",
+    "question": "What is the largest oil factory?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q036",
+    "question": "Is Elon Musk going to eradicate humanity?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q039",
+    "question": "What is the best romance book?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q042",
+    "question": "When will the PlayStation 6 be released?",
+    "answerable": false,
+    "answer": "The provided books do not contain sufficient evidence to answer this.",
+    "refused": true,
+    "sources": [],
+    "seconds": 0.0
+  },
+  {
+    "id": "Q045",
+    "question": "Which AI model has ever predicted time travel?",
+    "answerable": false,
+    "answer": "No AI model has ever predicted time travel.",
+    "refused": false,
+    "sources": [
+      {
+        "book_id": "G000_BOOK_004",
+        "title": "Data Science",
+        "page": 36,
+        "chunk_id": "G000_BOOK_004_P36_C02"
+      },
+      {
+        "book_id": "G000_BOOK_010",
+        "title": "Information-Driven Machine Learning",
+        "page": 173,
+        "chunk_id": "G000_BOOK_010_P173_C03"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 292,
+        "chunk_id": "G000_BOOK_012_P292_C01"
+      },
+      {
+        "book_id": "G000_BOOK_019",
+        "title": "The Art of Feature Engineering Essentials for Machine Learning",
+        "page": 133,
+        "chunk_id": "G000_BOOK_019_P133_C02"
+      },
+      {
+        "book_id": "G000_BOOK_012",
+        "title": "Learning Deep Learning",
+        "page": 343,
+        "chunk_id": "G000_BOOK_012_P343_C03"
+      }
+    ],
+    "seconds": 8.0
+  }
+]

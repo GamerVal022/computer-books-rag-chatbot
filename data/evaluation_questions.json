@@ -1,0 +1,515 @@
+[
+  {
+    "id": "Q001",
+    "question": "What are some potential applications of language models beyond just autocompletion?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_012",
+    "expected_page": 361,
+    "expected_chunk_id": "G000_BOOK_012_P361_C01",
+    "reference_answer": "The provided reference answer does not establish any applications beyond autocompletion. The question cannot be reliably answered from the current reference answer alone; verify the cited passage on page 361 before treating this question as answerable.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q002",
+    "question": "What is the primary purpose of the train-persist option in machine learning models?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_014",
+    "expected_page": 170,
+    "expected_chunk_id": "G000_BOOK_014_P170_C01",
+    "reference_answer": "The primary purpose of the train-persist option in machine learning models is to enable efficient training and prediction processes by separating the model training phase from the model persistence phase.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q004",
+    "question": "What is the relationship between Logistic Regression and probabilistic models?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_005",
+    "expected_page": 15,
+    "expected_chunk_id": "G000_BOOK_005_P15_C01",
+    "reference_answer": "Logistic Regression is closely related to probabilistic models because both are used to predict outcomes based on input features.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q005",
+    "question": "What is the recommended size for an Eyeball dev set based on the given information?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_016",
+    "expected_page": 38,
+    "expected_chunk_id": "G000_BOOK_016_P38_C01",
+    "reference_answer": "The recommended size of an eyeball development set should be determined from the guidance in the cited passage. Verify the specific recommendation on page 38 before recording a numerical answer.",
+
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q006",
+    "question": "What was the first application of machine learning techniques in remote sensing?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_015",
+    "expected_page": 295,
+    "expected_chunk_id": "G000_BOOK_015_P295_C02",
+    "reference_answer": "Yhann and Simpson's use of MLP NN classi\ufb01ers in the thermal infrared and visible channels in the AVHRR to detect clouds was their first application of machine learning techniques in remote sensing.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q008",
+    "question": "What is the relationship between the training and testing MSEs in the context of air quality prediction?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_018",
+    "expected_page": 48,
+    "expected_chunk_id": "G000_BOOK_018_P48_C01",
+    "reference_answer": "The passage states that the relatively close values of the training and testing MSEs (22.43 and 29.97, respectively) indicate that the model exhibits reasonable performance in both fitting the training data and generalizing to new observations.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q009",
+    "question": "What is the recommended approach for ensuring data cleanliness and validity in a modern data ecosystem?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_003",
+    "expected_page": 22,
+    "expected_chunk_id": "G000_BOOK_003_P22_C01",
+    "reference_answer": "Clean and validate data in the system best suited to do so.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q010",
+    "question": "How does Jupyter Notebooks simplify the process of setting up a deep learning workstation?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_005",
+    "expected_page": 51,
+    "expected_chunk_id": "G000_BOOK_005_P51_C02",
+    "reference_answer": "It allows users to execute individual components of their code when encountering issues rather than running the entire code from the start.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q011",
+    "question": "What is the main challenge faced by the attention layer when increasing the context length?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_020",
+    "expected_page": 81,
+    "expected_chunk_id": "G000_BOOK_020_P81_C01",
+    "reference_answer": "The passage discusses how the attention layer's computational complexity grows exponentially with the context length, leading to significant latency issues. It mentions that even small changes in context length can result in large latencies, especially for longer document contexts.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q013",
+    "question": "What is the purpose of using both the development and testing sets in machine learning?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_016",
+    "expected_page": 15,
+    "expected_chunk_id": "G000_BOOK_016_P15_C01",
+    "reference_answer": "To guide the team towards making the most significant improvements to the machine learning model based on future data characteristics.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q014",
+    "question": "What are some of the key applications and modalities of generative AI?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_008",
+    "expected_page": 24,
+    "expected_chunk_id": "G000_BOOK_008_P24_C01",
+    "reference_answer": "Generative AI can be applied to various fields including media, finance, healthcare, and even education. It can generate content based on patterns learned from large datasets, making it useful for tasks like image synthesis, natural language processing, and predictive analytics. Additionally, it can be used for personalized learning experiences, where students receive feedback tailored to their individual needs and learning styles.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q015",
+    "question": "What is the purpose of intermediate representations (IR) in compiler design?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_006",
+    "expected_page": 249,
+    "expected_chunk_id": "G000_BOOK_006_P249_C01",
+    "reference_answer": "Intermediate representations (IR) play a crucial role in compiler design by providing a structured way to represent high-level programming languages and their corresponding machine code. They help in understanding the structure of programs, facilitating optimizations during compilation, and enabling efficient execution on different hardware backends.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q016",
+    "question": "What does the RMSE measure in regression analysis?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_007",
+    "expected_page": 291,
+    "expected_chunk_id": "G000_BOOK_007_P291_C01",
+    "reference_answer": "The Root Mean Squared Error measures the average difference between predicted and actual values, providing insight into the model's prediction accuracy and overall performance.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q018",
+    "question": "What is the recommended approach for continuously adjusting ML models to adapt to changing environments?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_017",
+    "expected_page": 32,
+    "expected_chunk_id": "G000_BOOK_017_P32_C01",
+    "reference_answer": "Conducting model performance tests, including validation with offline data, feature importance analysis, and fairness, bias, and inclusion evaluations, to ensure the model's performance remains relevant and adaptable to dynamic environments.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q019",
+    "question": "What is the primary mathematical requirement for splitting a dataset into a training set and a validation set?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_010",
+    "expected_page": 50,
+    "expected_chunk_id": "G000_BOOK_010_P50_C01",
+    "reference_answer": "The i.i.d. (independent and identically distributed) assumption ensures that each sample in the training set is independent of every sample in the validation set, making it easier to evaluate the performance of a predictive model without memorizing training data.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q022",
+    "question": "What does the `seed` parameter in the `ALS` constructor do?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_007",
+    "expected_page": 603,
+    "expected_chunk_id": "G000_BOOK_007_P603_C01",
+    "reference_answer": "The `seed` parameter in the `ALS` constructor ensures that the split between the training and testing sets is reproducible each time the code is run with the same seed value.",
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q023",
+    "question": "How does the concept of wavefunction normalization relate to the definition of Dirac bra-ket notation?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_004",
+    "expected_page": 64,
+    "expected_chunk_id": "G000_BOOK_004_P64_C01",
+    "reference_answer": "Wavefunction normalization ensures that the probability density of finding a particle in a given position is always 1, which aligns with the requirement of normalization in Dirac bra-ket notation.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q024",
+    "question": "What is the main challenge faced by the project involving multiple stakeholders in bringing an ML system into production?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_006",
+    "expected_page": 35,
+    "expected_chunk_id": "G000_BOOK_006_P35_C01",
+    "reference_answer": "The passage discusses the challenges of designing, developing, and selecting an ML model that satisfies all stakeholders' requirements, including the need for balancing competing interests among various teams such as ML engineers, salespeople, product managers, infrastructure engineers, and a manager.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q026",
+    "question": "What is the primary purpose of differencing in time series analysis?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_019",
+    "expected_page": 136,
+    "expected_chunk_id": "G000_BOOK_019_P136_C02",
+    "reference_answer": "The primary purpose of differencing in time series analysis is to remove trends and seasonal patterns from the data, making it stationary and suitable for modeling.",
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q027",
+    "question": "Who is the current president of France?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q028",
+    "question": "When was Hakainde Hichilema made president of Zambia?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q029",
+    "question": "When is the next USA presidential election?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q030",
+    "question": "Does Mexico have mountains?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q031",
+    "question": "Who was the first captain to sail the Dead Sea?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q032",
+    "question": "When was the Sahara declared a desert?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q033",
+    "question": "What is the largest oil factory?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q034",
+    "question": "What is the cleanest form of energy?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q036",
+    "question": "Is Elon Musk going to eradicate humanity?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q037",
+    "question": "Will AI take over humanity?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q038",
+    "question": "Who is the world's best doctor?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q039",
+    "question": "What is the best romance book?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q040",
+    "question": "What is the processing chip in a Google Pixel 6 Pro?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q041",
+    "question": "Can Sifu work on a Google Pixel 6 Pro?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q042",
+    "question": "When will the PlayStation 6 be released?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q043",
+    "question": "Who would win between samurais and spartans?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q044",
+    "question": "What is Nvidia's most powerful GPU?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q045",
+    "question": "Which AI model has ever predicted time travel?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "validation",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q046",
+    "question": "Which university has the best machine learning program?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "Q047",
+    "question": "What did OpenAI announce at the beginning of October?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "test",
+    "review_status": "reviewed by KUUNDA"
+  },
+  {
+    "id": "F005",
+    "question": "What is the recommended number of workers to use when using PyTorch for training a neural network?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_002",
+    "expected_page": 296,
+    "expected_chunk_id": "G000_BOOK_002_P296_C01",
+    "reference_answer": "The recommended number of data-loading workers depends on the available hardware and workload. The cited passage should be checked to confirm whether it specifically recommends setting num_workers to 4.",
+    "split": "fresh",
+    "review_status": "AUTO-DRAFTED - needs review"
+  },
+  {
+    "id": "F006",
+    "question": "What is the purpose of BERT's pre-training process?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_008",
+    "expected_page": 235,
+    "expected_chunk_id": "G000_BOOK_008_P235_C01",
+    "reference_answer": "BERT is pretrained to learn contextual representations of words by using information from both the left and right contexts of a text.",
+    "split": "fresh",
+    "review_status": "AUTO-DRAFTED - needs review"
+  },
+  {
+    "id": "F011",
+    "question": "What are the key factors that influence the choice of tools, deployment techniques, monitoring strategies, and rigor when implementing a robust ML infrastructure?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_017",
+    "expected_page": 313,
+    "expected_chunk_id": "G000_BOOK_017_P313_C01",
+    "reference_answer": "The choice of ML infrastructure tools, deployment techniques, monitoring strategies, and operational rigor depends on factors such as team size, development practices, and the preferred technology stack.",
+    "split": "fresh",
+    "review_status": "AUTO-DRAFTED - needs review"
+  },
+  {
+    "id": "F012",
+    "question": "What is the purpose of batch normalization in neural networks?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_005",
+    "expected_page": 164,
+    "expected_chunk_id": "G000_BOOK_005_P164_C01",
+    "reference_answer": "Batch normalization normalizes intermediate activations during training using batch statistics, helping stabilize and often accelerate neural-network training.",
+    "split": "fresh",
+    "review_status": "AUTO-DRAFTED - needs review"
+  },
+  {
+    "id": "F019",
+    "question": "How does the perceptron learning algorithm ensure that the projected class labels are adjusted based on the discrepancy between the projected and actual outputs?",
+    "type": "factual",
+    "answerable": true,
+    "expected_book_id": "G000_BOOK_018",
+    "expected_page": 34,
+    "expected_chunk_id": "G000_BOOK_018_P34_C01",
+    "reference_answer": "The perceptron learning algorithm adjusts its weights iteratively based on the difference between the predicted output and the actual class label.",
+    "split": "fresh",
+    "review_status": "AUTO-DRAFTED - needs review"
+  },
+  {
+    "id": "FN01",
+    "question": "Who wrote the first novel ever published?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN02",
+    "question": "How many calories are in a plate of rice?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN03",
+    "question": "What is the best programming language for game development in 2026?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN04",
+    "question": "What salary does a machine learning engineer earn in Lusaka?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN05",
+    "question": "Which team won the most recent Premier League season?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN06",
+    "question": "Explain how a diesel engine works.",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN07",
+    "question": "What is the latest version of the iPhone?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  },
+  {
+    "id": "FN08",
+    "question": "Who is the richest person in the world?",
+    "type": "no_answer",
+    "answerable": false,
+    "split": "fresh",
+    "review_status": "reviewed by BWALYA"
+  }
+]

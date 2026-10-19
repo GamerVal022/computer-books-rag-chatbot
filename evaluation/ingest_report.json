@@ -1,0 +1,162 @@
+[
+  {
+    "book_id": "G000_BOOK_001",
+    "title": "An Introduction to Machine Learning",
+    "pages_kept": 443,
+    "pages_empty": 8,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_002",
+    "title": "Build a Large Language Model From Scratch",
+    "pages_kept": 367,
+    "pages_empty": 3,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_003",
+    "title": "Data Pipelines Pocket Reference",
+    "pages_kept": 276,
+    "pages_empty": 4,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_004",
+    "title": "Data Science",
+    "pages_kept": 487,
+    "pages_empty": 3,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_005",
+    "title": "Deep Learning With Python  Advanced and Ef",
+    "pages_kept": 170,
+    "pages_empty": 3,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_006",
+    "title": "Designing Machine Learning Systems An Iterative Process for Production-Ready Applications",
+    "pages_kept": 459,
+    "pages_empty": 2,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_007",
+    "title": "Distributed Machine Learning with PySpark",
+    "pages_kept": 828,
+    "pages_empty": 2,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_008",
+    "title": "Generative AI",
+    "pages_kept": 293,
+    "pages_empty": 4,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_009",
+    "title": "Grokking Machine Learning",
+    "pages_kept": 699,
+    "pages_empty": 3,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_010",
+    "title": "Information-Driven Machine Learning",
+    "pages_kept": 281,
+    "pages_empty": 0,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_011",
+    "title": "Large Language Models",
+    "pages_kept": 207,
+    "pages_empty": 4,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_012",
+    "title": "Learning Deep Learning",
+    "pages_kept": 743,
+    "pages_empty": 4,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_013",
+    "title": "Machine Learning Animated",
+    "pages_kept": 461,
+    "pages_empty": 4,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_014",
+    "title": "Machine Learning Engineering with Python",
+    "pages_kept": 662,
+    "pages_empty": 10,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_015",
+    "title": "Machine Learning Methods",
+    "pages_kept": 360,
+    "pages_empty": 5,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_016",
+    "title": "machine learning yearning",
+    "pages_kept": 117,
+    "pages_empty": 1,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_017",
+    "title": "MLOps with Ray Best Practices",
+    "pages_kept": 341,
+    "pages_empty": 1,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_018",
+    "title": "Practical Guide to Machine Learning NLP",
+    "pages_kept": 213,
+    "pages_empty": 5,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_019",
+    "title": "The Art of Feature Engineering Essentials for Machine Learning",
+    "pages_kept": 281,
+    "pages_empty": 6,
+    "pages_failed": 0,
+    "status": "processed"
+  },
+  {
+    "book_id": "G000_BOOK_020",
+    "title": "Building LLMs for Production",
+    "pages_kept": 523,
+    "pages_empty": 8,
+    "pages_failed": 0,
+    "status": "processed"
+  }
+]

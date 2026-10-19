@@ -1,0 +1,53 @@
+{
+  "group_id": "G000",
+  "subject": "Machine Learning and Large Language Models",
+  "config": {
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "embedding_role": "converts questions and book passages into 384-dimension vectors for semantic search",
+    "generative_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "generative_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "generative_role": "writes the answer from the retrieved passages only",
+    "chunk_words": 250,
+    "chunk_overlap_words": 40,
+    "top_k": 5,
+    "min_retrieval_score": 0.5,
+    "min_answer_support": 0.35,
+    "index": "FAISS IndexFlatIP, normalized embeddings (cosine similarity)",
+    "decoding": "greedy, max_new_tokens=250",
+    "hardware": "Dell Latitude 5400, 8 GB RAM, CPU only"
+  },
+  "validation": {
+    "questions": 14,
+    "answerable": 7,
+    "recall_at_5_hits": 5,
+    "wrongly_refused": 2,
+    "answers_given": 5,
+    "answers_citing_expected_page": 3,
+    "answers_marked_by_hand": 5,
+    "answers_correct_by_hand": 3,
+    "no_answer_questions": 7,
+    "no_answer_correctly_refused": 6,
+    "avg_seconds_per_question": 10.7
+  },
+  "test": {
+    "questions": 25,
+    "answerable": 12,
+    "recall_at_5_hits": 8,
+    "wrongly_refused": 3,
+    "answers_given": 9,
+    "answers_citing_expected_page": 5,
+    "answers_marked_by_hand": 9,
+    "answers_correct_by_hand": 3,
+    "no_answer_questions": 13,
+    "no_answer_correctly_refused": 11,
+    "avg_seconds_per_question": 11.8
+  },
+  "notes": [
+    "Thresholds (min_retrieval_score 0.50) were chosen from six informal questions before the formal evaluation.",
+    "min_answer_support was tested at 0.25 on the validation split and gave identical results.",
+    "Recall@5 counts only the exact PDF page the question was drawn from.",
+    "Some auto-drafted reference answers were flawed, so the correctness score is conservative.",
+    "Book permission status is TO_CONFIRM; PDFs and extracted text are not distributed."
+  ]
+}
